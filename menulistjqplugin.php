@@ -79,7 +79,7 @@ $(document).ready(function (){
 											<ul>
 												 <li ><a  href='javascript:void(0)'>Testing level 3</a>
 													<ul>
-														 <li ><a  href='ljavascript:void(0)'>Testing level 4</a></li>
+														 <li ><a  href='javascript:void(0)'>Testing level 4</a></li>
 														 <li ><a  href='javascript:void(0)'>User List</a></li>
 													</ul>
 														 
@@ -93,11 +93,11 @@ $(document).ready(function (){
 					   </li> 
 					   <li ><a href='javascript:void(0)'>All Work</a>
 								<ul>
-									 <li><a  href='loadWorkListPageAllWork'>Unassigned Task</a></li>
-									 <li><a  href='loadWorkListPageMyWork?deal_status_=requisitioned'>!Requisitioned</a>
+									 <li><a  href='javascript:void(0)'>Unassigned Task</a></li>
+									 <li><a  href='javascript:void(0)?deal_status_=requisitioned'>!Requisitioned</a>
 											<ul>
-												 <li class ="sub"><a  href='loadWorkListPageAllWork'>Unassigned Task</a></li>
-												 <li class ="sub"><a  href='loadUserListPageAllWork'>User List</a></li>
+												 <li class ="sub"><a  href='javascript:void(0)'>Unassigned Task</a></li>
+												 <li class ="sub"><a  href='javascript:void(0)'>User List</a></li>
 											</ul>
 									</li>
 								</ul>
@@ -115,15 +115,15 @@ $(document).ready(function (){
 					  </li> 
 					  <li ><a href='javascript:void(0)'>My Message</a>
 								<ul>
-									 <li><a  href='loadListPageDealMessage'>Inbox</a></li>
-									 <li><a  href='loadDeleteListPageDealMessage'>Trash</a></li>
+									 <li><a  href='javascript:void(0)'>Inbox</a></li>
+									 <li><a  href='javascript:void(0)'>Trash</a></li>
 								</ul>
 					  </li> 
 					  <li ><a href='javascript:void(0)'>My Profile</a>
 								<ul>
-									 <li><a  href='loadEditPageUP'>User Profile</a></li>
-									 <li><a  href='PublicCP'>Change Password</a></li>
-									 <li><a  href='loadIncomingRequestCompany'>User Account Request</a></li>
+									 <li><a  href='javascript:void(0)'>User Profile</a></li>
+									 <li><a  href='javascript:void(0)'>Change Password</a></li>
+									 <li><a  href='javascript:void(0)'>User Account Request</a></li>
 								</ul>
 					  </li> 
 					  <li ><a href='javascript:void(0)'>My Company</a>
