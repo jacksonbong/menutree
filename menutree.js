@@ -72,7 +72,11 @@
 							var menu1 = that[0].children[i];
 							if (menu1.children.length > 1 ) {
 								if (settings.align =="vertical") {
-									menu1.children[1].className = "verticalmenu margin-top";
+									if (navigator.appVersion.indexOf("Chrome/") != -1) {
+										menu1.children[1].className = "verticalmenu margin-top";
+									} else {
+										menu1.children[1].className = "verticalmenu";
+									}
 								} else {
 									menu1.children[1].className ="menu1";
 								}
