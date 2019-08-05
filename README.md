@@ -40,4 +40,8 @@ already create on Dom
      $('nav ul:first-child').menutree({ align: 'horizontal',layer: true , arrowright:"<span class='glyphicon glyphicon-chevron-right' style='float:right;'></span>", data: <?php echo (json_encode($ul_array)); ?>,target: $('#ulmenulist')});
 
 
+###Horizontal Align
+![ScreenShot](http://portal.chuanseng.online/images/horizontal.png)
 
+###Vertical Align
+![ScreenShot](http://portal.chuanseng.online/images/treemenuvertical.png)
