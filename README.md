@@ -41,7 +41,7 @@ already create on Dom
 
 
 ###Horizontal Align
-![ScreenShot](http://portal.chuanseng.online/images/horizontal.png)
+![ScreenShot](https://github.com/jacksonbong/menutree/blob/master/horizontal.png)
 
 ###Vertical Align
-![ScreenShot](http://portal.chuanseng.online/images/treemenuvertical.png)
+![ScreenShot](https://github.com/jacksonbong/menutree/blob/master/treemenuvertical.png)
