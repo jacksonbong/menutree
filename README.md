@@ -18,11 +18,11 @@ js and css
 step2:
 
 creat a dom 
-<nav class="navbar">
-		<ul id="ulmenulist">
+
+   <ul id="ulmenulist"></ul>
     
-    </ul>
-</nav>
+    
+
   
 or already on dom
 
