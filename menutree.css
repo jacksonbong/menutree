@@ -99,8 +99,6 @@
 .verticalmenu {
 	float: right;
 	margin-right: -200px;
-	margin-top: -36px;
-	position: unset;
 	list-style-type: none;
 	padding: 0;
 	width: 200px;
@@ -121,4 +119,8 @@
   background-color: #555;
   color: white;
 }
-	
+
+
+.margin-top {
+   margin-top: -36px;
+} 	
