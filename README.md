@@ -8,25 +8,32 @@ You just need menutree.js and menutree.css in your html.And dont forget the jQue
 Email: bongze9@gmail.com
 
 
-Start
-step1:
-js and css
+##Start
 
+###step1:
+
+js and css<br/>
+```
+ <head>
   <link rel="stylesheet" type="text/css" href="menutree.css">
   <script type="text/javascript" src="jquery-3.2.0.min.js"></script>
   <script type="text/javascript" src="menutree.js"></script>
-step2:
+</head> 
+  ```
+
+
+###step2:
 
 init
 already create on Dom
-  $(document).ready(function (){
+
     $('nav ul:first-child').menutree({ align: 'horizontal',layer: true , arrowright:"<span class='glyphicon glyphicon-chevron-right' style='float:right;'></span>"});
-  //align two optional vertical / horizontal 
-  //layer is for css 
-  //arrowright is for icon on each layer
-  //data object format fromm backend
-  // target for first ul
-    });
+      //align two optional vertical / horizontal 
+      //layer is for css 
+      //arrowright is for icon on each layer
+      //data object format fromm backend
+      // target for first ul
+  
     
     or create based on object
     
