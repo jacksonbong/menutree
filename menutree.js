@@ -62,6 +62,7 @@
 					
 						console.log($(this));
 						if (settings.align =="vertical") {
+						   that.parent().parent().css({"display":"inline-flex"});
 						   that[0].className = "verticalmenulist";
 						} else {
 						 that[0].className = "menulist";
