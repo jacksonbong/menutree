@@ -1,6 +1,6 @@
 # menutree
 
-You just need menutree.js and menutree.css in your html.And dont forget the jQuery.min.js! Actually, if you don't care about the css style, the menutree.js is enough for you. This menutree.css is used in a project of mine, so it may not suit for you, just change it! Hope you make it more beautiful :)
+You just need menutree.js and menutree.css in your html.And dont forget the jQuery.min.js! This menutree.css is used in a project of mine, so it may not suit for you, just change it! Hope you make it more beautiful :)
 
 !!!Ps: I'm a beginner, so my code is not well, please forgive me if my code brings you more problems. :) I'm working hard now! And welcome to commuicate with me, it can make my better ! I will be very happy if you come to me!
 
