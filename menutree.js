@@ -142,7 +142,11 @@
 							var menu2sublen = menu1.children[x].children.length;
 							if (menu2sublen > 1) {
 								var menu2 = menu1.children[x];
-								menu2.className = "selected";
+								if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+ 								// some code..
+								} else {
+								     menu2.className = "selected";
+								}
 								if ((menu2.children[0].outerHTML).indexOf ('</span>') > -1) {
 									
 								} else {
