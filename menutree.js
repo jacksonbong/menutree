@@ -70,8 +70,11 @@
 						   that.closest('.container').css({"display":"inline-flex"});
 						   that[0].className = "verticalmenulist";
 						} else {
-						 that[0].className = "menulist";
+						    that[0].className = "menulist";
 						}
+						 
+						// prepend element to front of ul
+						that.parent().prepend("<label for='show-menu' class='show-menu'>Show Menu</label><input type='checkbox' id='show-menu' role='button'>");
 						
 						 for (var i = 0; i < that[0].children.length;i ++){
 							var menu1 = that[0].children[i];
