@@ -44,7 +44,7 @@ already create on Dom
 ![ScreenShot](https://github.com/jacksonbong/menutree/blob/master/horizontal.png)
 
 ### Vertical Align
-![ScreenShot](https://github.com/jacksonbong/menutree/blob/master/treemenuvertical.png)
+![ScreenShot](https://github.com/jacksonbong/menutree/blob/master/vertical.png)
 
 ### Mobile
 ![ScreenShot](https://github.com/jacksonbong/menutree/blob/master/mobile.PNG)
