@@ -45,3 +45,8 @@ already create on Dom
 
 ###Vertical Align
 ![ScreenShot](https://github.com/jacksonbong/menutree/blob/master/treemenuvertical.png)
+
+###Mobile
+![ScreenShot](https://github.com/jacksonbong/menutree/blob/master/mobile.PNG)
+
+
