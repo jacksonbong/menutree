@@ -138,11 +138,6 @@
 					if (menu1) {
 						var menu2len = menu1.children.length;
 						menu1.hidden = false;
-						if (($(this)[0].className).indexOf('selected')>-1){
-							//$(this)[0].className = "";
-						} else {
-							$(this)[0].className = "selected";
-						}
 						for (var x = 0; x < menu2len; x ++) {
 							var menu2sublen = menu1.children[x].children.length;
 							if (menu2sublen > 1) {
@@ -160,12 +155,7 @@
 				}).on('mouseleave',function(){
 					var menu1 = $(this)[0].children[1];
 					if (menu1) {
-						menu1.hidden = true;
-						if (($(this)[0].className).indexOf('selected')>-1){
-							$(this)[0].className = "";
-						} else {
-						
-						}
+					    menu1.hidden = true;
 					}
 				});
 
