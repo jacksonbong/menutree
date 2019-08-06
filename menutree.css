@@ -124,3 +124,9 @@
 .margin-top {
    margin-top: -36px;
 } 	
+
+.margin-left {
+   margin-right: 0px!important;
+   margin-left: -200px;
+   float: left;
+} 	
