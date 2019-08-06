@@ -17,17 +17,22 @@
 		  }, options );
 		  
 		   var  html = "";
+		   var alignleftmenu = false;
 			/** loop menu to append css**/
-		   function loopmenu(length, menu){
+		   function loopmenu(length, menu,alignleftmenu){
 			  for (var z = 0; z < length;z++){
 					var menu_ = menu.children[1].children[z];
 					console.log('menu2',menu_);
 					if (menu_.children.length > 1 ) {
-						menu_.children[1].className ="menu2";
+						if (alignleftmenu) { 
+							menu_.children[1].className ="menu2 margin-left";
+						} else {
+							menu_.children[1].className ="menu2";
+						}
 						console.log('menu2',menu_.children[1]);
 						var menu__len = menu_.children[1].children.length;
 						if (menu_.children[1].children) {
-							loopmenu(menu__len,menu_);
+							loopmenu(menu__len,menu_, alignleftmenu);
 						}
 					} 
 				}
@@ -62,7 +67,7 @@
 					
 						console.log($(this));
 						if (settings.align =="vertical") {
-						   that.parent().parent().css({"display":"inline-flex"});
+						   that.closest('.container').css({"display":"inline-flex"});
 						   that[0].className = "verticalmenulist";
 						} else {
 						 that[0].className = "menulist";
@@ -78,12 +83,16 @@
 										menu1.children[1].className = "verticalmenu";
 									}
 								} else {
+									console.log(i);
+									if (i > 3) {
+										alignleftmenu = true;
+									}
 									menu1.children[1].className ="menu1";
 								}
 								
 								menu2len = menu1.children[1].children.length;
 								console.log(menu2len);
-								loopmenu(menu2len,menu1);
+								loopmenu(menu2len,menu1,alignleftmenu);
 								
 							} 
 						}
