@@ -40,13 +40,13 @@ already create on Dom
      $('nav ul:first-child').menutree({ align: 'horizontal',layer: true , arrowright:"<span class='glyphicon glyphicon-chevron-right' style='float:right;'></span>", data: <?php echo (json_encode($ul_array)); ?>,target: $('#ulmenulist')});
 
 
-###Horizontal Align
+### Horizontal Align
 ![ScreenShot](https://github.com/jacksonbong/menutree/blob/master/horizontal.png)
 
-###Vertical Align
+### Vertical Align
 ![ScreenShot](https://github.com/jacksonbong/menutree/blob/master/treemenuvertical.png)
 
-###Mobile
+### Mobile
 ![ScreenShot](https://github.com/jacksonbong/menutree/blob/master/mobile.PNG)
 
 
