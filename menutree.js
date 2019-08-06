@@ -104,12 +104,45 @@
 					that.trigger('layercss');
 				  } 
 				
-				 that.find('li').on('mouseenter',function(event){
+				  that.find('li').on('click',function(event){//mouseenter
 					var menu1 = $(this)[0].children[1];
-					
+					if (menu1) {
+						var menu2len = menu1.children.length;
+						
+						if (($(this)[0].className).indexOf('selected')>-1){
+							$(this)[0].className = "";
+							menu1.hidden = true;
+							
+						} else {
+							$(this)[0].className = "selected";
+							menu1.hidden = false;
+						}
+						
+						for (var x = 0; x < menu2len; x ++) {
+							var menu2sublen = menu1.children[x].children.length;
+							if (menu2sublen > 1) {
+								var menu2 = menu1.children[x];
+								if ((menu2.children[0].outerHTML).indexOf ('</span>') > -1) {
+									
+								} else {
+									splitouterhtml = (menu2.children[0].outerHTML).split("</a>");
+									menu2.children[0].outerHTML = splitouterhtml[0] + settings.arrowright;
+									
+								}
+							}
+						}
+					}
+					return false;
+				}).on('mouseenter',function(){
+					var menu1 = $(this)[0].children[1];
 					if (menu1) {
 						var menu2len = menu1.children.length;
 						menu1.hidden = false;
+						if (($(this)[0].className).indexOf('selected')>-1){
+							//$(this)[0].className = "";
+						} else {
+							$(this)[0].className = "selected";
+						}
 						for (var x = 0; x < menu2len; x ++) {
 							var menu2sublen = menu1.children[x].children.length;
 							if (menu2sublen > 1) {
@@ -128,6 +161,11 @@
 					var menu1 = $(this)[0].children[1];
 					if (menu1) {
 						menu1.hidden = true;
+						if (($(this)[0].className).indexOf('selected')>-1){
+							$(this)[0].className = "";
+						} else {
+						
+						}
 					}
 				});
 
