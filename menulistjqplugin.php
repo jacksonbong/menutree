@@ -68,6 +68,7 @@ $(document).ready(function (){
    </head>
    <body>
     <div class="container" >
+	  <header>
 	   <nav class="navbar">
 			<ul id="ulmenulist">
 				<li>
@@ -236,9 +237,167 @@ $(document).ready(function (){
 			  
 			  </li>
 			  <li><a href="#">Page 3</a></li>
-			 
+			 <li><a href="#">Page 4</a>
+					<ul>
+						   <li>
+								<a href='javascript:void(0)'>My Work</a>
+									<ul>
+										 <li>
+											<a href='javascript:void(0)'>!Requisitioned</a>
+												<ul>
+													 <li ><a  href='javascript:void(0)'>Unassigned Task</a></li>
+													 <li ><a  href='javascript:void(0)'>User List</a></li>
+												</ul>
+										 </li>
+										 <li><a  href='javascript:void(0)'>In Progress</a></li>
+										 <li><a  href='javascript:void(0)'>Lodged</a></li>
+									</ul>
+						   </li> 
+						   <li ><a href='javascript:void(0)'>All Work</a>
+									<ul>
+										 <li><a  href='javascript:void(0)'>Unassigned Task</a></li>
+										 <li><a  href='javascript:void(0)'>!Requisitioned</a>
+												<ul>
+													 <li class ="sub"><a  href='javascript:void(0)'>Unassigned Task</a></li>
+													 <li class ="sub"><a  href='javascript:void(0)'>User List</a></li>
+												</ul>
+										</li>
+									</ul>
+						  </li> 
+						  <li ><a href='javascript:void(0)'>eCase</a>
+									<ul>
+										 <li><a  href='javascript:void(0)'>Create eCase</a></li>
+										 <li><a  href='javascript:void(0)'>Edit eCase</a></li>
+										 <li><a  href='javascript:void(0)'>Share eCase</a></li>
+										 <li><a  href='javascript:void(0)'>Internal Instrument Transfer </a></li>
+										 <li><a  href='javascript:void(0)'>External Instrument Transfer </a></li>
+										 <li><a  href='javascript:void(0)?type=MS'>Multiple Signing and Payment</a></li>
+										 <li><a href='javascript:void(0)'>Physical Submission Slip</a></li>
+									</ul>
+						  </li> 
+						  <li ><a href='javascript:void(0)'>My Message</a>
+									<ul>
+										 <li><a  href='javascript:void(0)'>Inbox</a></li>
+										 <li><a  href='javascript:void(0)'>Trash</a></li>
+									</ul>
+						  </li> 
+						  <li ><a href='javascript:void(0)'>My Profile</a>
+									<ul>
+										 <li><a  href='javascript:void(0)'>User Profile</a></li>
+										 <li><a  href='javascript:void(0)'>Change Password</a></li>
+										 <li><a  href='javascript:void(0)'>User Account Request</a></li>
+									</ul>
+						  </li> 
+						  <li ><a href='javascript:void(0)'>My Company</a>
+									<ul>
+										 <li><a  href='javascript:void(0)'>Authorised Agent</a></li>
+										 <li><a  href='javascript:void(0)'>Authorised Witness</a></li>
+										 <li><a  href='javascript:void(0)'>Company Profile</a></li>
+									</ul>
+						  </li> 
+						  <li ><a href='javascript:void(0)'>System Administration</a>
+									<ul>
+										 <li><a  href='javascript:void(0)?action=ELPublicUser_&retrieve=Y'>User Account Setup</a></li>
+										 <li><a  href='javascript:void(0)?action=UserGroupEL&retrieve=Y'>User Group Setup</a></li>
+									</ul>
+						  </li> 
+						  <li ><a href='javascript:void(0)'>Reports</a>
+								  <ul>
+									 <li><a href='javascript:void(0)'>Activity Log</a></li>
+									 <li><a href='javascript:void(0)'>Payment Acknowledgement Slip</a>
+											<ul>
+												 <li ><a  href='javascript:void(0)'>Unassigned Task</a></li>
+												 <li ><a  href='javascript:void(0)'>User List</a></li>
+											</ul>
+									 </li>
+									 
+								</ul>
+						   </li>
+						</ul> 
+			  
+			  </li><li><a href="#">Page 5</a>
+					<ul>
+						   <li>
+								<a href='javascript:void(0)'>My Work</a>
+									<ul>
+										 <li>
+											<a href='javascript:void(0)'>!Requisitioned</a>
+												<ul>
+													 <li ><a  href='javascript:void(0)'>Unassigned Task</a></li>
+													 <li ><a  href='javascript:void(0)'>User List</a></li>
+												</ul>
+										 </li>
+										 <li><a  href='javascript:void(0)'>In Progress</a></li>
+										 <li><a  href='javascript:void(0)'>Lodged</a></li>
+									</ul>
+						   </li> 
+						   <li ><a href='javascript:void(0)'>All Work</a>
+									<ul>
+										 <li><a  href='javascript:void(0)'>Unassigned Task</a></li>
+										 <li><a  href='javascript:void(0)'>!Requisitioned</a>
+												<ul>
+													 <li class ="sub"><a  href='javascript:void(0)'>Unassigned Task</a></li>
+													 <li class ="sub"><a  href='javascript:void(0)'>User List</a></li>
+												</ul>
+										</li>
+									</ul>
+						  </li> 
+						  <li ><a href='javascript:void(0)'>eCase</a>
+									<ul>
+										 <li><a  href='javascript:void(0)'>Create eCase</a></li>
+										 <li><a  href='javascript:void(0)'>Edit eCase</a></li>
+										 <li><a  href='javascript:void(0)'>Share eCase</a></li>
+										 <li><a  href='javascript:void(0)'>Internal Instrument Transfer </a></li>
+										 <li><a  href='javascript:void(0)'>External Instrument Transfer </a></li>
+										 <li><a  href='javascript:void(0)?type=MS'>Multiple Signing and Payment</a></li>
+										 <li><a href='javascript:void(0)'>Physical Submission Slip</a></li>
+									</ul>
+						  </li> 
+						  <li ><a href='javascript:void(0)'>My Message</a>
+									<ul>
+										 <li><a  href='javascript:void(0)'>Inbox</a></li>
+										 <li><a  href='javascript:void(0)'>Trash</a></li>
+									</ul>
+						  </li> 
+						  <li ><a href='javascript:void(0)'>My Profile</a>
+									<ul>
+										 <li><a  href='javascript:void(0)'>User Profile</a></li>
+										 <li><a  href='javascript:void(0)'>Change Password</a></li>
+										 <li><a  href='javascript:void(0)'>User Account Request</a></li>
+									</ul>
+						  </li> 
+						  <li ><a href='javascript:void(0)'>My Company</a>
+									<ul>
+										 <li><a  href='javascript:void(0)'>Authorised Agent</a></li>
+										 <li><a  href='javascript:void(0)'>Authorised Witness</a></li>
+										 <li><a  href='javascript:void(0)'>Company Profile</a></li>
+									</ul>
+						  </li> 
+						  <li ><a href='javascript:void(0)'>System Administration</a>
+									<ul>
+										 <li><a  href='javascript:void(0)?action=ELPublicUser_&retrieve=Y'>User Account Setup</a></li>
+										 <li><a  href='javascript:void(0)?action=UserGroupEL&retrieve=Y'>User Group Setup</a></li>
+									</ul>
+						  </li> 
+						  <li ><a href='javascript:void(0)'>Reports</a>
+								  <ul>
+									 <li><a href='javascript:void(0)'>Activity Log</a></li>
+									 <li><a href='javascript:void(0)'>Payment Acknowledgement Slip</a>
+											<ul>
+												 <li ><a  href='javascript:void(0)'>Unassigned Task</a></li>
+												 <li ><a  href='javascript:void(0)'>User List</a></li>
+											</ul>
+									 </li>
+									 
+								</ul>
+						   </li>
+						</ul> 
+			  
+			  </li>
+			  
 			</ul> 
 		</nav>
+		</header>
 		<div class ="content">
 			<p>
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget nisi non sapien iaculis euismod a eget metus. Curabitur in placerat nisl. Phasellus scelerisque consectetur lectus quis commodo. Etiam porta laoreet est ac facilisis. Donec hendrerit ex metus, id placerat risus bibendum eu. Nam dignissim magna eu nisl accumsan viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultrices, augue non efficitur euismod, arcu mauris porttitor turpis, sit amet posuere elit tortor sit amet orci. Vestibulum condimentum, tortor nec tincidunt pharetra, arcu est faucibus est, porttitor faucibus sem magna et nunc. Pellentesque ac ipsum at magna ultricies egestas. Pellentesque at sapien tellus. Integer vestibulum velit ut libero rhoncus condimentum.
