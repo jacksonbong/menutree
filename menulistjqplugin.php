@@ -97,7 +97,7 @@ $(document).ready(function (){
 						   <li ><a href='javascript:void(0)'>All Work</a>
 									<ul>
 										 <li><a  href='javascript:void(0)'>Unassigned Task</a></li>
-										 <li><a  href='javascript:void(0)'>!Requisitioned</a>
+										 <li><a  href='javascript:void(0)'>!testing</a>
 												<ul>
 													 <li class ="sub"><a  href='javascript:void(0)'>Unassigned Task</a></li>
 													 <li class ="sub"><a  href='javascript:void(0)'>User List</a></li>
@@ -105,15 +105,11 @@ $(document).ready(function (){
 										</li>
 									</ul>
 						  </li> 
-						  <li ><a href='javascript:void(0)'>eCase</a>
+						  <li ><a href='javascript:void(0)'>testing</a>
 									<ul>
-										 <li><a  href='javascript:void(0)'>asdasd</a></li>
-										 <li><a  href='javascript:void(0)'>asd </a></li>
-										 <li><a  href='javascript:void(0)'>dasd </a></li>
-										 <li><a  href='javascript:void(0)'>asdasd </a></li>
-										 <li><a  href='javascript:void(0)'>asdsa</a></li>
-										 <li><a  href='javascript:void(0)?type=MS'>asdasdsada</a></li>
-										 <li><a href='javascript:void(0)'>asdasdasd</a></li>
+										 <li><a  href='javascript:void(0)'>Create testing</a></li>
+										 <li><a  href='javascript:void(0)'>Edit testing</a></li>
+										 <li><a  href='javascript:void(0)'>Share testing</a></li>
 									</ul>
 						  </li> 
 						  <li ><a href='javascript:void(0)'>My Message</a>
@@ -131,9 +127,9 @@ $(document).ready(function (){
 						  </li> 
 						  <li ><a href='javascript:void(0)'>My Company</a>
 									<ul>
-										 <li><a  href='javascript:void(0)'>asdad Agent</a></li>
-										 <li><a  href='javascript:void(0)'>asd asdasd</a></li>
-										 <li><a  href='javascript:void(0)'>Company Profasdasdile</a></li>
+										 <li><a  href='javascript:void(0)'>testing12344 1</a></li>
+										 <li><a  href='javascript:void(0)'>testing12344 2</a></li>
+										 <li><a  href='javascript:void(0)'>Company Profile</a></li>
 									</ul>
 						  </li> 
 						  <li ><a href='javascript:void(0)'>System Administration</a>
@@ -163,7 +159,7 @@ $(document).ready(function (){
 								<a href='javascript:void(0)'>My Work</a>
 									<ul>
 										 <li>
-											<a href='javascript:void(0)'>!Requisitioned</a>
+											<a href='javascript:void(0)'>!testing</a>
 												<ul>
 													 <li ><a  href='javascript:void(0)'>Unassigned Task</a></li>
 													 <li ><a  href='javascript:void(0)'>User List</a></li>
@@ -176,7 +172,7 @@ $(document).ready(function (){
 						   <li ><a href='javascript:void(0)'>All Work</a>
 									<ul>
 										 <li><a  href='javascript:void(0)'>Unassigned Task</a></li>
-										 <li><a  href='javascript:void(0)'>!Requisitioned</a>
+										 <li><a  href='javascript:void(0)'>!testing</a>
 												<ul>
 													 <li class ="sub"><a  href='javascript:void(0)'>Unassigned Task</a></li>
 													 <li class ="sub"><a  href='javascript:void(0)'>User List</a></li>
@@ -184,15 +180,11 @@ $(document).ready(function (){
 										</li>
 									</ul>
 						  </li> 
-						  <li ><a href='javascript:void(0)'>asdsadasd</a>
+						  <li ><a href='javascript:void(0)'>testing</a>
 									<ul>
-										 <li><a  href='javascript:void(0)'>asdasd</a></li>
-										 <li><a  href='javascript:void(0)'>asd </a></li>
-										 <li><a  href='javascript:void(0)'>dasd </a></li>
-										 <li><a  href='javascript:void(0)'>asdasd </a></li>
-										 <li><a  href='javascript:void(0)'>asdsa</a></li>
-										 <li><a  href='javascript:void(0)?type=MS'>asdasdsada</a></li>
-										 <li><a href='javascript:void(0)'>asdasdasd</a></li>
+										 <li><a  href='javascript:void(0)'>Create testing</a></li>
+										 <li><a  href='javascript:void(0)'>Edit testing</a></li>
+										 <li><a  href='javascript:void(0)'>Share testing</a></li>
 									</ul>
 						  </li> 
 						  <li ><a href='javascript:void(0)'>My Message</a>
@@ -203,22 +195,22 @@ $(document).ready(function (){
 						  </li> 
 						  <li ><a href='javascript:void(0)'>My Profile</a>
 									<ul>
-										 <li><a  href='javascript:void(0)'>asdasd asd</a></li>
-										 <li><a  href='javascript:void(0)'>asdasd</a></li>
-										 <li><a  href='javascript:void(0)'>asd asdasd</a></li>
+										 <li><a  href='javascript:void(0)'>User Profile</a></li>
+										 <li><a  href='javascript:void(0)'>Change Password</a></li>
+										 <li><a  href='javascript:void(0)'>User Account Request</a></li>
 									</ul>
 						  </li> 
 						  <li ><a href='javascript:void(0)'>My Company</a>
 									<ul>
-										 <li><a  href='javascript:void(0)'>asdasd asd</a></li>
-										 <li><a  href='javascript:void(0)'>asdasd</a></li>
-										 <li><a  href='javascript:void(0)'>asd asdasd</a></li>
+										 <li><a  href='javascript:void(0)'>testing12344 1</a></li>
+										 <li><a  href='javascript:void(0)'>testing12344 2</a></li>
+										 <li><a  href='javascript:void(0)'>Company Profile</a></li>
 									</ul>
 						  </li> 
 						  <li ><a href='javascript:void(0)'>System Administration</a>
 									<ul>
-										 <li><a  href='javascript:void(0)?action=ELPublicUser_&retrieve=Y'>User Account Setup</a></li>
-										 <li><a  href='javascript:void(0)?action=UserGroupEL&retrieve=Y'>User Group Setup</a></li>
+										 <li><a  href='javascript:void(0)'>User Account Setup</a></li>
+										 <li><a  href='javascript:void(0)'>User Group Setup</a></li>
 									</ul>
 						  </li> 
 						  <li ><a href='javascript:void(0)'>Reports</a>
@@ -243,7 +235,7 @@ $(document).ready(function (){
 								<a href='javascript:void(0)'>My Work</a>
 									<ul>
 										 <li>
-											<a href='javascript:void(0)'>!asdasd</a>
+											<a href='javascript:void(0)'>!testing</a>
 												<ul>
 													 <li ><a  href='javascript:void(0)'>Unassigned Task</a></li>
 													 <li ><a  href='javascript:void(0)'>User List</a></li>
@@ -256,7 +248,7 @@ $(document).ready(function (){
 						   <li ><a href='javascript:void(0)'>All Work</a>
 									<ul>
 										 <li><a  href='javascript:void(0)'>Unassigned Task</a></li>
-										 <li><a  href='javascript:void(0)'>!Requisitioned</a>
+										 <li><a  href='javascript:void(0)'>!testing</a>
 												<ul>
 													 <li class ="sub"><a  href='javascript:void(0)'>Unassigned Task</a></li>
 													 <li class ="sub"><a  href='javascript:void(0)'>User List</a></li>
@@ -264,15 +256,11 @@ $(document).ready(function (){
 										</li>
 									</ul>
 						  </li> 
-						  <li ><a href='javascript:void(0)'>asdasd</a>
+						  <li ><a href='javascript:void(0)'>testing</a>
 									<ul>
-										 <li><a  href='javascript:void(0)'>asdasd</a></li>
-										 <li><a  href='javascript:void(0)'>asd </a></li>
-										 <li><a  href='javascript:void(0)'>dasd </a></li>
-										 <li><a  href='javascript:void(0)'>asdasd </a></li>
-										 <li><a  href='javascript:void(0)'>asdsa</a></li>
-										 <li><a  href='javascript:void(0)?type=MS'>asdasdsada</a></li>
-										 <li><a href='javascript:void(0)'>asdasdasd</a></li>
+										 <li><a  href='javascript:void(0)'>Create testing</a></li>
+										 <li><a  href='javascript:void(0)'>Edit testing</a></li>
+										 <li><a  href='javascript:void(0)'>Share testing</a></li>
 									</ul>
 						  </li> 
 						  <li ><a href='javascript:void(0)'>My Message</a>
@@ -290,15 +278,15 @@ $(document).ready(function (){
 						  </li> 
 						  <li ><a href='javascript:void(0)'>My Company</a>
 									<ul>
-										 <li><a  href='javascript:void(0)'>asdasd asd</a></li>
-										 <li><a  href='javascript:void(0)'>asdasd</a></li>
-										 <li><a  href='javascript:void(0)'>asd asdasd</a></li>
+										 <li><a  href='javascript:void(0)'>testing12344 1</a></li>
+										 <li><a  href='javascript:void(0)'>testing12344 2</a></li>
+										 <li><a  href='javascript:void(0)'>Company Profile</a></li>
 									</ul>
 						  </li> 
 						  <li ><a href='javascript:void(0)'>System Administration</a>
 									<ul>
-										 <li><a  href='javascript:void(0)?action=ELPublicUser_&retrieve=Y'>User Account Setup</a></li>
-										 <li><a  href='javascript:void(0)?action=UserGroupEL&retrieve=Y'>User Group Setup</a></li>
+										 <li><a  href='javascript:void(0)'>User Account Setup</a></li>
+										 <li><a  href='javascript:void(0)'>User Group Setup</a></li>
 									</ul>
 						  </li> 
 						  <li ><a href='javascript:void(0)'>Reports</a>
@@ -321,11 +309,10 @@ $(document).ready(function (){
 								<a href='javascript:void(0)'>My Work</a>
 									<ul>
 										 <li>
-											<a href='javascript:void(0)'>!asdasd</a>
+											<a href='javascript:void(0)'>!testing</a>
 												<ul>
-													<li><a  href='javascript:void(0)'>asdasd asd</a></li>
-													 <li><a  href='javascript:void(0)'>asdasd</a></li>
-													 <li><a  href='javascript:void(0)'>asd asdasd</a></li>
+													 <li ><a  href='javascript:void(0)'>Unassigned Task</a></li>
+													 <li ><a  href='javascript:void(0)'>User List</a></li>
 												</ul>
 										 </li>
 										 <li><a  href='javascript:void(0)'>In Progress</a></li>
@@ -334,8 +321,8 @@ $(document).ready(function (){
 						   </li> 
 						   <li ><a href='javascript:void(0)'>All Work</a>
 									<ul>
-										 <li><a  href='javascript:void(0)'>asdsad Task</a></li>
-										 <li><a  href='javascript:void(0)'>!asdad</a>
+										 <li><a  href='javascript:void(0)'>Unassigned Task</a></li>
+										 <li><a  href='javascript:void(0)'>!testing</a>
 												<ul>
 													 <li class ="sub"><a  href='javascript:void(0)'>Unassigned Task</a></li>
 													 <li class ="sub"><a  href='javascript:void(0)'>User List</a></li>
@@ -343,15 +330,11 @@ $(document).ready(function (){
 										</li>
 									</ul>
 						  </li> 
-						  <li ><a href='javascript:void(0)'>asdasd</a>
+						  <li ><a href='javascript:void(0)'>testing</a>
 									<ul>
-										  <li><a  href='javascript:void(0)'>asdasd</a></li>
-										 <li><a  href='javascript:void(0)'>asd </a></li>
-										 <li><a  href='javascript:void(0)'>dasd </a></li>
-										 <li><a  href='javascript:void(0)'>asdasd </a></li>
-										 <li><a  href='javascript:void(0)'>asdsa</a></li>
-										 <li><a  href='javascript:void(0)?type=MS'>asdasdsada</a></li>
-										 <li><a href='javascript:void(0)'>asdasdasd</a></li>
+										 <li><a  href='javascript:void(0)'>Create testing</a></li>
+										 <li><a  href='javascript:void(0)'>Edit testing</a></li>
+										 <li><a  href='javascript:void(0)'>Share testing</a></li>
 									</ul>
 						  </li> 
 						  <li ><a href='javascript:void(0)'>My Message</a>
@@ -369,27 +352,21 @@ $(document).ready(function (){
 						  </li> 
 						  <li ><a href='javascript:void(0)'>My Company</a>
 									<ul>
-										 <li><a  href='javascript:void(0)'>asdasd asd</a></li>
-										 <li><a  href='javascript:void(0)'>asdasd</a></li>
-										 <li><a  href='javascript:void(0)'>asd asdasd</a></li>
+										 <li><a  href='javascript:void(0)'>testing12344 1</a></li>
+										 <li><a  href='javascript:void(0)'>testing12344 2</a></li>
+										 <li><a  href='javascript:void(0)'>Company Profile</a></li>
 									</ul>
 						  </li> 
-						  <li ><a href='javascript:void(0)'>System Administration</a>
+						  <li ><a href='javascript:void(0)'>System</a>
 									<ul>
-										 <li><a  href='javascript:void(0)?action=ELPublicUser_&retrieve=Y'>User Account Setup</a></li>
-										 <li><a  href='javascript:void(0)?action=UserGroupEL&retrieve=Y'>User Group Setup</a></li>
+										 <li><a  href='javascript:void(0)'>User Account Setup</a></li>
+										 <li><a  href='javascript:void(0)'>User Group Setup</a></li>
 									</ul>
 						  </li> 
 						  <li ><a href='javascript:void(0)'>Reports</a>
 								  <ul>
 									 <li><a href='javascript:void(0)'>Activity Log</a></li>
-									 <li><a href='javascript:void(0)'>Payment Acknowledgement Slip</a>
-											<ul>
-												 <li ><a  href='javascript:void(0)'>Unassigned Task</a></li>
-												 <li ><a  href='javascript:void(0)'>User List</a></li>
-											</ul>
-									 </li>
-									 
+								
 								</ul>
 						   </li>
 						</ul> 
